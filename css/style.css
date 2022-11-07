@@ -4,3 +4,26 @@ p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
 }
+div.nav ul{
+    padding: 0px;
+    margin: 0px;
+
+}
+div.nav ul li{
+    list-style: none;
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    color:#fff;
+    background-color: #09f;
+    margin-right: 10px;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+ul li a:hover{background-color: cadetblue;
+color: #f00;}
